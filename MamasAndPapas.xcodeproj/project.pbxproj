@@ -14,6 +14,7 @@
 		215D1630212989B1002DD46A /* PaginatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215D162F212989B1002DD46A /* PaginatorTests.swift */; };
 		215D163221299058002DD46A /* ProductApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215D163121299058002DD46A /* ProductApiTests.swift */; };
 		215D163A212996AA002DD46A /* MamasAndPapasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215D1639212996AA002DD46A /* MamasAndPapasUITests.swift */; };
+		215D1646212A08E7002DD46A /* SearchModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215D1645212A08E7002DD46A /* SearchModels.swift */; };
 		218ED1F72123F29E00ABFD47 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218ED1F62123F29E00ABFD47 /* ProductDetailViewController.swift */; };
 		218ED1F92123F31D00ABFD47 /* StoreModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218ED1F82123F31D00ABFD47 /* StoreModels.swift */; };
 		218ED1FB2123FA1400ABFD47 /* ProductDetailScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218ED1FA2123FA1400ABFD47 /* ProductDetailScrollView.swift */; };
@@ -66,6 +67,7 @@
 		215D1637212996AA002DD46A /* MamasAndPapasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MamasAndPapasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		215D1639212996AA002DD46A /* MamasAndPapasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MamasAndPapasUITests.swift; sourceTree = "<group>"; };
 		215D163B212996AA002DD46A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		215D1645212A08E7002DD46A /* SearchModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModels.swift; sourceTree = "<group>"; };
 		218ED1F62123F29E00ABFD47 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
 		218ED1F82123F31D00ABFD47 /* StoreModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreModels.swift; sourceTree = "<group>"; };
 		218ED1FA2123FA1400ABFD47 /* ProductDetailScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailScrollView.swift; sourceTree = "<group>"; };
@@ -139,10 +141,18 @@
 			path = MamasAndPapasUITests;
 			sourceTree = "<group>";
 		};
-		218ED1F22123F25400ABFD47 /* API */ = {
+		215D1644212A0848002DD46A /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				218ED25D2126A61000ABFD47 /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		218ED1F22123F25400ABFD47 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				215D1644212A0848002DD46A /* Models */,
 				218ED2592126921100ABFD47 /* Constants.swift */,
 				218ED2572126914500ABFD47 /* ProductService.swift */,
 				218ED2552126912600ABFD47 /* ProductApi.swift */,
@@ -216,6 +226,7 @@
 			children = (
 				218ED1F82123F31D00ABFD47 /* StoreModels.swift */,
 				218ED21521244D9000ABFD47 /* Paginator.swift */,
+				215D1645212A08E7002DD46A /* SearchModels.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -483,6 +494,7 @@
 				21D164872123EE7B002F918B /* AppDelegate.swift in Sources */,
 				218ED20F2124481F00ABFD47 /* StoreViewController+UICollectionViewDelegateFlowLayout.swift in Sources */,
 				218ED2182124916400ABFD47 /* AttributeView.swift in Sources */,
+				215D1646212A08E7002DD46A /* SearchModels.swift in Sources */,
 				218ED2112124483C00ABFD47 /* StoreViewController+UICollectionViewDelegate.swift in Sources */,
 				218ED25A2126921100ABFD47 /* Constants.swift in Sources */,
 				218ED20A212442F600ABFD47 /* ViewController+Extensions.swift in Sources */,

@@ -53,20 +53,6 @@ extension ProductService: TargetType{
     
     var headers: [String : String]? {
         return [:]
-    }
-    
-    
+    }        
 }
 
-enum Search {
-    struct Request: Encodable {
-        let searchString: String
-        let page: Int
-        let hitsPerPage: Int
-        let filters: String
-    }
-    
-    struct Response: Codable {
-        let hits: [Product]
-    }
-}
